@@ -1,9 +1,14 @@
 function cariMean(arr) {
     // you can only write your code here!
+    var temp = 0
+    var meanNampung
     for (let i = 0; i < arr.length; i++) {
-        const element = arr[i];
+        temp+=arr[i]
         
     }
+    meanNampung = temp/arr.length
+    
+    return Math.round(meanNampung)
   }
   
   // TEST CASES
